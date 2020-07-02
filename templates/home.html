@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body style="background-color: grey;">
+<div>
+    <h4>TO GET BRANCH DETAILS</h4>
+    
+    <form action="../branch/" method="POST">
+        {% csrf_token %}
+        <input type="text" name ="ifsc" placeholder="IFSC Code"><br> <br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<hr>
+<div>
+    <h4>TO GET BANK DETAILS IN A CITY</h4>
+    <form action="../bank/" method="POST">
+        {% csrf_token %}
+        <input type="text" name ="bank_name" placeholder="Bank Name" required> <br><br>
+        <input type="text" name ="bank_city" placeholder= "Bank City" required> <br> <br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+    
+
+</body>
+</html>
