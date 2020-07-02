@@ -6,7 +6,10 @@
 
 
 4. To get access data directly from link 
-  4.1) To get branch details using ifsc code use link:
+
+
+
+ 4.1) To get branch details using ifsc code use link:
       a) for localhost: http://127.0.0.1:8000/branch_ifsc/<ifsc_code> 
             eg: http://127.0.0.1:8000/branch_ifsc/ABHY0065030
       b) for live link : http://dpkjha.pythonanywhere.com/branch_ifsc/<ifsc_code>  
