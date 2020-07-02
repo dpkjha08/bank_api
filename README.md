@@ -10,6 +10,9 @@
 
 
  4.1) To get branch details using ifsc code use link:
+ 
+ 
+ 
       a) for localhost: http://127.0.0.1:8000/branch_ifsc/<ifsc_code> 
             eg: http://127.0.0.1:8000/branch_ifsc/ABHY0065030
             
